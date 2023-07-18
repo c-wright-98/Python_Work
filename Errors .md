@@ -2,15 +2,13 @@
 
 All the errors are syntax errors
 
-''' python
-PRINT "Hello World"
+    PRINT "Hello World"
 
-print(Hello World)
+    print(Hello World)
 
-Print("Hello World")
+    Print("Hello World")
 
-priint("Hello World")
-'''
+    priint("Hello World")
 
 The first print command is in all capital letters and is missing the brackets around the string.
 
