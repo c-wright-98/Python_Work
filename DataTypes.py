@@ -20,6 +20,8 @@ print(number1)
 print(number2)
 print(round_number)
 
+#The output of these statments would be the inputted numbers from the first two statements
+# and then the rounded version of the float number
 
 ## Booleans
 
