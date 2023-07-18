@@ -13,6 +13,3 @@ while count < len(name):
 #Prints all the numbers from 5 - 10
 for i in range(5, 11):
     print(i)
-
-##Execise
-
