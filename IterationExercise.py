@@ -7,6 +7,8 @@ while count < 5:
     print(name + " is awesome!")
     count += 1
 
-#Explain while loop
+#Explain for loop
 for i in range(10, 21, 2):
     print(i)
+
+#It prints each number in the range from 10 to 20, incrementing by 2 in each iteration.
