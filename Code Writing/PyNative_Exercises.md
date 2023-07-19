@@ -1,4 +1,4 @@
-### Exercise 1: Reverse each word of a string
+### Exercise 1: Reverse each word of a string ###
 
     def R_Word(string):
         words = string.split()
@@ -9,7 +9,7 @@
     reveresed = R_Word(input_str)
     print(reveresed)
 
-### Exercise 3: Remove items from a list while iterating
+### Exercise 3: Remove items from a list while iterating ###
 In this question, You need to remove items from a list while iterating but without creating a different copy of a list.
 
 Remove numbers greater than 50
@@ -31,3 +31,5 @@ Remove numbers greater than 50
             del nums[i]
 
     print(f"This is the fixed list: {nums}")
+
+The -1-1-1 in the for loop makes the loop check the list in reverse so as items are removed it still checks every item
