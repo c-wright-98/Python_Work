@@ -6,4 +6,4 @@ while n < 5:
         print(i)
     n += 1
 
-print (item_list[5])
+print (item_list[4])
