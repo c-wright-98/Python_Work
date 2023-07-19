@@ -33,3 +33,6 @@ Remove numbers greater than 50
     print(f"This is the fixed list: {nums}")
 
 The -1-1-1 in the for loop makes the loop check the list in reverse so as items are removed it still checks every item
+
+### Exercise 3: Generate 6 digit random secure OTP
+
