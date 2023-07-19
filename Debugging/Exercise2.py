@@ -1,7 +1,7 @@
 def product(n):
     total == 1
-    for n in n:
+    for i in n:
         total *= i
-return total
+    return total
 
 print(product([4,4,5]))
