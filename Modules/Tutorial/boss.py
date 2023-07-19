@@ -1,3 +1,5 @@
+#Defines three functions that take a name as an argument
+
 def good_boss(name):
     print(f"{name} is a good boss!")
 
