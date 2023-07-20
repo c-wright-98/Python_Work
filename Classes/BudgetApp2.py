@@ -10,8 +10,17 @@ class budget:
 
     def deposit(self, amount):
         self.fund += amount
-        print(f"You have deposited £{amount}")
-        print(f"New Balance: {self.balance}")
-    
+        print(f"You have deposited £{amount} into {self.name}")
+        print(f"New Balance: £{self.balance}")
+
     def get_balance(self):
-        
+        print(F"Balance of {self.name}: £{self.balance}")
+
+    def withdraw(self, amount):
+        if amount > self.balance:
+            print("Insufficent Funds")
+            print(f"Balance of {self.name}: £{self.balance}")
+        if amount <= self.balance:
+            self.balance -= amount
+            print(f"You have withdrawn £{amount} from {self.name}")
+            print(f"Balance for {self.name}: £{self.balance}")
