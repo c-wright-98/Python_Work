@@ -4,6 +4,8 @@
 # as well computing category balances and transferring balance amounts between categories”
 
 class budget:
-    
-    self.catergories = []
-    
+    def __init__(self):
+        self.catergories = {}
+        #Using a dictionary to store the categories so they can be a key to the balances
+
+
