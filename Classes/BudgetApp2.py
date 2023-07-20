@@ -7,3 +7,6 @@ class budget:
     def __init__(self, category, balance = 0):
         self.category = category
         self.balance = balance
+        
+    def deposit(self, amount):
+        
