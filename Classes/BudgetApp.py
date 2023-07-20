@@ -3,3 +3,7 @@
 # These objects should allow for depositing and withdrawing funds from each category,
 # as well computing category balances and transferring balance amounts between categories”
 
+class budget:
+    
+    self.catergories = []
+    
