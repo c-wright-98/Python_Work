@@ -8,4 +8,10 @@ class budget:
         self.catergories = {}
         #Using a dictionary to store the categories so they can be a key to the balances
 
+    def add_category(self, category_name, initial_balance = 0):
+        if category_name not in self.add_category:
+            self.catergories[category_name] = initial_balance
+
+
+
 
