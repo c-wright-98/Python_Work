@@ -25,6 +25,9 @@ class budget:
             print(f"You have withdrawn £{amount} from {self.name}")
             print(f"New Balance: £{self.balance}")
 
+    def transfer(self, amount, other_name):
+        
+
 Food = budget("Food",250)
 Food.get_balance()
 Food.deposit(100)
