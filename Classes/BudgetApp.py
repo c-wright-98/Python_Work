@@ -11,6 +11,8 @@ class budget:
     def add_category(self, category_name, initial_balance = 0):
         if category_name not in self.add_category:
             self.catergories[category_name] = initial_balance
+            
+    def deposit(self, category_name, amount)
 
 
 
