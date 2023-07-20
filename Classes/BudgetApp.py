@@ -29,6 +29,7 @@ class budget:
     def show_balance(self, category_name:str):
         if category_name in self.catergories:
             print(f"There is £{self.catergories[category_name]} in {category_name}")
+            
 
 Budget = budget()
 Budget.add_category("food", 1000)
