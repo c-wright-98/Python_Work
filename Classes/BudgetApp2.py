@@ -26,18 +26,21 @@ class budget:
             print(f"New Balance: £{self.balance}")
 
     def transfer(self, amount, other_name):
-        if self.name == other_name:
+        if self.name != other_name:
             if amount > self.balance:
                 print("Insufficent Funds")
             if amount <= self.balance:
                 self.balance -= amount
                 other_name.balance += amount
-                print(f"£{amount} was transferred to {other_name} from {self.name}")
-                print(f"{self.name} balance: £{self.balance}")
-                print(f"{other_name} balance: £{other_name.balance}")
+                print(f"Balance of {self.name}: £{self.balance}")
 
 Food = budget("Food",250)
+Clothes = budget("Clothes", 150)
+Rent = budget("Rent", 500)
+
 Food.get_balance()
 Food.deposit(100)
 Food.withdraw(100)
 Food.withdraw(300)
+Rent.transfer(100, Clothes)
+Clothes.get_balance()
