@@ -19,11 +19,11 @@ class budget:
     def withdraw(self, amount: int):
         if amount > self.balance:
             print("Insufficent Funds")
-            print(f"Balance of {self.name}: £{self.balance}")
+            print(f"Balance for {self.name}: £{self.balance}")
         if amount <= self.balance:
             self.balance -= amount
             print(f"You have withdrawn £{amount} from {self.name}")
-            print(f"Balance for {self.name}: £{self.balance}")
+            print(f"New Balance: £{self.balance}")
 
 Food = budget("Food",250)
 Food.get_balance()
