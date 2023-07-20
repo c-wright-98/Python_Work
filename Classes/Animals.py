@@ -63,9 +63,9 @@ class Owl(Bird):
 
     def eat(self):
         return "Peck peck"
-    
+
 # used Polymorphism to override the reproduce method,
-# Abstraction with the eat method 
+# Abstraction with the eat method
 # and Inheritance in this child class.
 
 ## Second Subclass
@@ -79,5 +79,7 @@ class Dodo(Bird):
     def reproduce(self):
         if not self.extinct:
             self.babies += 1
+
 # used Polymorphism to override the reproduce method and Fly and extinct variables
 # Encapsulation to keep the babies variable from being directly accessed
+# Inheritance again to create a child class of Bird.
