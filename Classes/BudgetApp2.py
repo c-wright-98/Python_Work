@@ -4,12 +4,12 @@
 # as well computing category balances and transferring balance amounts between categories”
 
 class budget:
-    def __init__(self, category:str , balance = 0):
-        self.category = category
+    def __init__(self, name:str , balance = 0):
+        self.name = name
         self.balance = balance
 
     def deposit(self, amount: int):
-        self.fund += amount
+        self.balance += amount
         print(f"You have deposited £{amount} into {self.name}")
         print(f"New Balance: £{self.balance}")
 
