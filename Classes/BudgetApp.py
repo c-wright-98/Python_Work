@@ -16,6 +16,14 @@ class budget:
         if category_name in self.catergories:
             self.catergories[category_name] += amount
 
+    def withdraw(self, category_name, amount):
+        if category_name in self.catergories:
+            if self.catergories[category_name] >= amount:
+                self.catergories[category_name] -= amount
+            else:
+                print("Insufficent Funds")
+    
+
 
 
 
