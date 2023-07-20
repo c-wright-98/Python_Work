@@ -7,6 +7,11 @@ class budget:
     def __init__(self, category, balance = 0):
         self.category = category
         self.balance = balance
-        
+
     def deposit(self, amount):
+        self.fund += amount
+        print(f"You have deposited £{amount}")
+        print(f"New Balance: {self.balance}")
+    
+    def get_balance(self):
         
