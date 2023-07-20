@@ -9,10 +9,12 @@ class budget:
         #Using a dictionary to store the categories so they can be a key to the balances
 
     def add_category(self, category_name, initial_balance = 0):
-        if category_name not in self.add_category:
+        if category_name not in self.catergories:
             self.catergories[category_name] = initial_balance
-            
-    def deposit(self, category_name, amount)
+
+    def deposit(self, category_name, amount):
+        if category_name in self.catergories:
+            self.catergories[category_name] += amount
 
 
 
