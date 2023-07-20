@@ -4,11 +4,11 @@
 # as well computing category balances and transferring balance amounts between categories”
 
 class budget:
-    def __init__(self, category, balance = 0):
+    def __init__(self, category:str , balance = 0):
         self.category = category
         self.balance = balance
 
-    def deposit(self, amount):
+    def deposit(self, amount: int):
         self.fund += amount
         print(f"You have deposited £{amount} into {self.name}")
         print(f"New Balance: £{self.balance}")
@@ -16,7 +16,7 @@ class budget:
     def get_balance(self):
         print(F"Balance of {self.name}: £{self.balance}")
 
-    def withdraw(self, amount):
+    def withdraw(self, amount: int):
         if amount > self.balance:
             print("Insufficent Funds")
             print(f"Balance of {self.name}: £{self.balance}")
@@ -24,3 +24,8 @@ class budget:
             self.balance -= amount
             print(f"You have withdrawn £{amount} from {self.name}")
             print(f"Balance for {self.name}: £{self.balance}")
+
+Food = budget("Food",250)
+Food.get_balance()
+Food.deposit(100)
+Food.withdraw(100)
