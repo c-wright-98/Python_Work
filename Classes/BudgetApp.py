@@ -30,6 +30,13 @@ class budget:
         if category_name in self.categories:
             print(f"There is £{self.categories[category_name]} in {category_name}")
 
+budget = Budget()
+budget.add_category("food", 1000)
+budget.add_category("clothing", 500)
+budget.add_category("entertainment", 300)
+
+
+
 
 
 
