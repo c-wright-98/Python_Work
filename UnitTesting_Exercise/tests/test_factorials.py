@@ -1,4 +1,4 @@
 import pytest
-from programs import factorials
+from programs import factorial
 
 #def
