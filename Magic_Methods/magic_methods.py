@@ -16,7 +16,7 @@ class rectangle:
     def __str__ (self):
         rectangle_str = ''
         for _ in range(self.height):
-            rectangle_str += "*" * self.width + "\n"
+            rectangle_str += "+" * self.width + "\n"
         return rectangle_str
 
     def __int__(self):
