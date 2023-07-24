@@ -7,7 +7,7 @@ class student:
 
     The class has two functions
     '''
-    def __init__(self, name:str, age:int, studentclass='student'):
+    def __init__(self, name:str, age:int, studentclass:str ='student') -> None:
         '''
         This is the initialised attributes of the student class and includes:
         the student's name as a string,
@@ -20,7 +20,7 @@ class student:
         self.studentclass = studentclass
         self.test_score = []
 
-    def add_test_score(self):
+    def add_test_score(self) -> None:
         '''
         add_test_score: This function prompts the user to input three test scores and adds them to the empty test_score list
         '''
