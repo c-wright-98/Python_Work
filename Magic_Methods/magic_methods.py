@@ -8,3 +8,6 @@ an __int__ method which returns the rectangle's area
 Feel free to play around with implementing any of the other magic methods if you want to
 '''
 
+class rectangle:
+    def __init__(self):
+        pass
