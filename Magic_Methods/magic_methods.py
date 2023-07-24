@@ -9,5 +9,11 @@ Feel free to play around with implementing any of the other magic methods if you
 '''
 
 class rectangle:
+    def __init__(self, height:int, width:int) -> None:
+        self.height = height
+        self.width = width
+
+    def __str__ (self):
+        pass
     def __init__(self):
         pass
