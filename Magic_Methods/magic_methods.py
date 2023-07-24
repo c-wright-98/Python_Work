@@ -9,7 +9,7 @@ Feel free to play around with implementing any of the other magic methods if you
 '''
 
 class rectangle:
-    def __init__(self, height, width):
+    def __init__(self, height:int , width:int):
         self.height = height
         self.width = width
 
